@@ -1,11 +1,15 @@
-@import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi);
+/* @import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi); */
+@import url("http://db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi");
+
+/* @import url("http://db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.ttf"); */
+
 body {
   margin: 0;
   padding: 0;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
-  font-family: "Days One", arial;
+  /* font-family: "Days One", arial; */
   color: rgb(240, 236, 47);
   font-family: "Star Jedi", arial;
 
