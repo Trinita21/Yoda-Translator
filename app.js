@@ -7,7 +7,7 @@ function translation() {
     .then((response) => response.json())
     .then((json) => writeOnPara(json.contents.translated))
     .catch(function errorHandling(error) {
-      alert("Server Error!!!");
+      alert("Server Error!Please try again later");
     });
 }
 
