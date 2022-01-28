@@ -5,7 +5,10 @@ function translation() {
   let query = url + "?text=" + handleInput.value;
   fetch(query)
     .then((response) => response.json())
-    .then((json) => writeOnPara(json.contents.translated));
+    .then((json) => writeOnPara(json.contents.translated))
+    .catch(function errorHandling(error) {
+      alert("Server Error!!!");
+    });
 }
 
 function writeOnPara(translatedText) {
