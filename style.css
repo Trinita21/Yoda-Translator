@@ -105,4 +105,19 @@ body {
     align-items: center;
     justify-content: space-around;
   }
+  #input {
+    width: 300px;
+  }
+  .paragraph {
+    width: 300px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .nav-title {
+    font-size: 1rem;
+  }
+  .list-items {
+    font-size: 0.8rem;
+  }
 }
