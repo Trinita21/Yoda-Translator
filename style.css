@@ -99,3 +99,10 @@ body {
 .list a:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 678px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
